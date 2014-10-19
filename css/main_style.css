@@ -85,7 +85,8 @@ header ul li a:hover{
     background-size: 100%;
     position:absolute;
     top:185px;
-    left:34%;
+    left: 50%;
+    margin-left: -298px;
 }
 .inner {
     position:absolute;
@@ -133,10 +134,12 @@ header ul li a:hover{
 
 /*-----------------------------------------#grey*/
 #grey{
-    width:100%;
-    height:450px;
-    background:url(../images/bg_gray.png) no-repeat;
-    padding-top:83px;
+    width: 100%;
+    height: 450px;
+    background: url(../images/bg_gray.png) no-repeat center center #f3f3f3;
+    padding-top: 83px;
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
 }
 #grey .content{
     margin:0 auto;
@@ -190,6 +193,7 @@ header ul li a:hover{
     background: -ms-linear-gradient(top,  #ffaa00 0%,#ffc34b 100%); /* IE10+ */
     background: linear-gradient(to bottom,  #ffaa00 0%,#ffc34b 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaa00', endColorstr='#ffc34b',GradientType=0 ); /* IE6-8 */
+    cursor: pointer;
 }
 
 #grey span{
